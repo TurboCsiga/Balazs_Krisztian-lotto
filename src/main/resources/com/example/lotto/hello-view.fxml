@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="200.0" prefWidth="300.0" spacing="20.445645645665465" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lotto.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <HBox prefHeight="99.9" prefWidth="200.1" spacing="21.1456516651">
+         <children>
+            <Button fx:id="btnSorsol" mnemonicParsing="false" text="Button" />
+            <Label fx:id="txtLotto" text="" />
+         </children>
+         <padding>
+            <Insets top="30.4" />
+         </padding>
+      </HBox>
+      <Label fx:id="txtList" text="">
+         <padding>
+            <Insets left="22.2" />
+         </padding>
+      </Label>
+   </children>
+</VBox>
